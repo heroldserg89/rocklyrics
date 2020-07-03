@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #333;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.main-page .container{
+	display: flex;
+	flex-direction: row; 
+}
+.main-content{
+	width: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.main-aside{
+	width: 300px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+.main-header{
+	background-color: #000;
+	display: block;
+	margin-bottom: 60px;
+}
+.main-header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.header-logo{
+	font-size: 20px;
+	color: #f9f6f3;
+	line-height: 40px;
+	font-weight: bold;
+	fill: #333;
+}
+.header-logo:hover{
+	text-decoration: none;
+	color: #f9f6f3;
+}
+.header-logo img{
+	display: inline-block;
+	vertical-align: top;
+}
+.main-nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.main-nav li{
+	display: inline-block;
+}
+.main-nav li a{
+	display: block;
+	padding: 20px 20px;
+	color: #f9f6f3;
+}
+.main-nav li a:hover{
+	background-color: #333;
+}
+
+
+.item-lyrics{
+	border-top: 1px solid rgba(51, 51, 51, 0.2);
+}
+.item-lyrics:last-child{
+	border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+.item-lyrics-link{
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	width: 100%;	
+}
+.item-lyrics-link:hover{
+	background-color: rgba(51, 51, 51, 0.2);
+	color: #333;
+	text-decoration: none;
+}
+.item-lyrics-image{
+	margin-right: 10px;
+}
+.item-lyrics-link{
+	color:#333;
+	font-size: 16px;
+}
+.item-lyrics-title{
+	margin: 0;
+}
